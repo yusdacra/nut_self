@@ -1,3 +1,5 @@
+[![crates.io](https://img.shields.io/crates/v/nut_self)](https://crates.io/crates/nut_self) [![docs.rs](https://docs.rs/nut_self/badge.svg)](https://docs.rs/nut_self)
+
 # &nut self
 
 It makes your code nut.
