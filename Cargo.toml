@@ -3,7 +3,13 @@ name = "nut_self"
 version = "0.1.0"
 authors = ["Yusuf Bera Ertan <y.bera003.06@protonmail.com>"]
 edition = "2018"
+repository = "https://github.com/yusdacra/nut_self"
+license = "MIT"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+proc-macro = true
+
+[workspace]
+members = ["example"]
 
 [dependencies]
