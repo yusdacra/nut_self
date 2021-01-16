@@ -1,6 +1,7 @@
 use proc_macro::TokenStream;
 use std::str::FromStr;
 
+/// Makes your code nut.
 #[proc_macro]
 pub fn nut(input: TokenStream) -> TokenStream {
     internal_nut(input)

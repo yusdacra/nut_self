@@ -5,11 +5,10 @@ authors = ["Yusuf Bera Ertan <y.bera003.06@protonmail.com>"]
 edition = "2018"
 repository = "https://github.com/yusdacra/nut_self"
 license = "MIT"
+description = "Makes your code nut."
 
 [lib]
 proc-macro = true
 
 [workspace]
 members = ["example"]
-
-[dependencies]
